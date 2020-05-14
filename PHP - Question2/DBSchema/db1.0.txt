@@ -1,0 +1,7 @@
+CREATE DATABASE testDB;
+
+CREATE TABLE Users (
+    Email varchar(64) NOT NULL,
+    Password varchar(64) NOT NULL,
+    PRIMARY KEY(Email)
+);
